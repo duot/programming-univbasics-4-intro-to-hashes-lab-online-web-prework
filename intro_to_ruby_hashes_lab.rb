@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  (1.10).to_h
+  [[:a, 1], [:b, 2], [:c, 3]].to_h
 end
 
 def pioneer
